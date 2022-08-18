@@ -151,8 +151,71 @@ console.log(`my name is ${fname} ${lname}`);
 // const mul = (a, b) => a * b;
 // console.log(mul(10, 5));
 
-//Arrays
-groceries = ["banana", "apple", "orange", "pear"];
+// //Arrays
+// groceries = ["banana", "apple", "orange", "pear"];
 
-console.log(groceries);
-console.log(groceries[0]);
+// console.log(groceries);
+// // Indexes Arrays start at 0 index
+// console.log(groceries[0]);
+// console.log(groceries[3]);
+
+// //Array methods
+// //.push()method
+// groceries.push("fruits", "vegetable "); //it wont change top console.log
+// console.log(groceries);
+
+// //.slice method
+// // incluse first argument and exclude second
+// console.log(groceries.slice(3, 6));
+
+// //.splice() start from first argument index number and second argument add number of item you want after them.
+// console.log(groceries.splice(2));
+
+// //.indexOf
+// console.log(groceries.indexOf("apple"));
+
+// //.length
+// console.log(groceries.length);
+
+//object
+
+// const person = {
+//   name: "Leonardo",
+//   shirt: "white",
+// };
+// // dot notation
+// console.log(person.name);
+// console.log(person.shirt);
+
+// //braket notation
+// console.log(person["shirt"]);
+
+// // assign object
+// person.adress = "Uk";
+// console.log(person);
+
+// const person1 = {};
+// person1.name = "Leenah";
+// person1.shirt = "red";
+// person1.adress = "UK";
+
+// console.log(person1);
+
+// const introducer = (name, shirt = "white") => {
+//   const person = {
+//     name: name,
+//     shirt: shirt,
+//     assets: 100000,
+//     liabilities: 50000,
+//     // this become a method need to call like person.networth()
+//     netWorth: function () {
+//       return this.assets - this.liabilities;
+//     },
+//   };
+
+//   const intro = `hi my name is ${person.name} and I like ${
+//     person.shirt
+//   } color shirts and my net worth is $${person.netWorth()} usd`;
+//   return intro;
+// };
+// console.log(introducer("Leenah"));

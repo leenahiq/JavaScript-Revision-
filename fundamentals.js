@@ -1,4 +1,5 @@
 //welcome to fundamentals
+// https://www.youtube.com/watch?v=lI1ae4REbFM
 
 console.log("hello world");
 let fname = "leenah";
@@ -89,65 +90,69 @@ console.log(`my name is ${fname} ${lname}`);
 //  }
 // myName(prompt("what is your first name? "), prompt("what is your last name? "))
 
-function greetings(name) {
-  //template literals
-  let greeting = `Hi ${name}, How are you doing today?`;
-  console.log(greeting);
-}
-greetings("Leenah");
+// function greetings(name) {
+//   //template literals
+//   let greeting = `Hi ${name}, How are you doing today?`;
+//   console.log(greeting);
+// }
+// greetings("Leenah");
 
-//sum
-function sum(a, b) {
-  return a + b;
-}
-console.log(sum(2, 3));
+// //sum
+// function sum(a, b) {
+//   return a + b;
+// }
+// console.log(sum(2, 3));
 
-let calculate;
-let total;
-let bill;
+// let calculate;
+// let total;
+// let bill;
 
-function totalAmount(food, tip) {
-  calculateTip = food * (tip / 100);
-  total = sum(food, calculateTip);
-  return total;
-}
-bill = totalAmount(100, 10);
-console.log(` your total bill is: ${bill}`);
+// function totalAmount(food, tip) {
+//   calculateTip = food * (tip / 100);
+//   total = sum(food, calculateTip);
+//   return total;
+// }
+// bill = totalAmount(100, 10);
+// console.log(` your total bill is: ${bill}`);
 
-//ES6
-//Arrow function with explicit
+// //ES6
+// //Arrow function with explicit
 
-const sum1 = (a, b) => {
-  return a + b;
-};
-console.log(sum1(2, 4));
+// const sum1 = (a, b) => {
+//   return a + b;
+// };
+// console.log(sum1(2, 4));
 
-//Arrow function with implicit return
-const sum2 = (a, b) => a + b;
-console.log(sum2(4, 5));
+// //Arrow function with implicit return
+// const sum2 = (a, b) => a + b;
+// console.log(sum2(4, 5));
 
-//Exercises
-/* 
-  TODO: Write a function that sums two numbers
-  TODO: Write a function that subtracts two numbers
-  TODO: Write a function that divides two numbers.
-  TODO: Write a function that multiplies two numbers.
-  *NOTE* be sure to handle dividing by zero 😉
-  ES5 Syntax: function Add(){}
-  ES6 Syntax (Arrow function): const add = () => {}
-*/
+// //Exercises
+// /*
+//   TODO: Write a function that sums two numbers
+//   TODO: Write a function that subtracts two numbers
+//   TODO: Write a function that divides two numbers.
+//   TODO: Write a function that multiplies two numbers.
+//   *NOTE* be sure to handle dividing by zero 😉
+//   ES5 Syntax: function Add(){}
+//   ES6 Syntax (Arrow function): const add = () => {}
+// */
 
-const add = (a, b) => a + b;
-console.log(add(10, 5));
+// const add = (a, b) => a + b;
+// console.log(add(10, 5));
 
-//Subtract function here
-const sub = (a, b) => a - b;
-console.log(sub(10, 5));
-//Divide function here
-const div = (a, b) => a / b;
-console.log(div(10, 5));
-//multiply function here
-const mul = (a, b) => a * b;
-console.log(mul(10, 5));
+// //Subtract function here
+// const sub = (a, b) => a - b;
+// console.log(sub(10, 5));
+// //Divide function here
+// const div = (a, b) => a / b;
+// console.log(div(10, 5));
+// //multiply function here
+// const mul = (a, b) => a * b;
+// console.log(mul(10, 5));
 
 //Arrays
+groceries = ["banana", "apple", "orange", "pear"];
+
+console.log(groceries);
+console.log(groceries[0]);
